@@ -29,7 +29,7 @@ void setup() {
   cX = width / 2;
   cY = height / 2;
 
-  gifExport = new GifMaker(this, "diagsquares.gif");
+  gifExport = new GifMaker(this, "../gifs/diagsquares.gif");
   gifExport.setRepeat(0);
   gifExport.setTransparent(255, 255, 255);
   gifExport.setDelay(1000/30);
